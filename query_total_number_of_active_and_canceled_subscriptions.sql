@@ -1,0 +1,1 @@
+SELECT Canceled, COUNT(Canceled) AS Total FROM customer_data GROUP BY Canceled;
