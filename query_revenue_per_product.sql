@@ -1,0 +1,1 @@
+SELECT SUM(UnitPrice*Quantity) AS productRevenue, Product FROM sales_data GROUP BY Product

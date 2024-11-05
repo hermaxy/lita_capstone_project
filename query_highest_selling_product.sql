@@ -1,0 +1,1 @@
+SELECT COUNT(UnitPrice) AS productSales, Product FROM sales_data GROUP BY Product ORDER BY productSales DESC LIMIT 1;

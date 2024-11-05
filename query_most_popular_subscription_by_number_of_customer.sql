@@ -1,0 +1,1 @@
+SELECT SubscriptionType, COUNT(SubscriptionType) CustomerCount FROM customer_data GROUP BY SubscriptionType ORDER BY CustomerCount DESC LIMIT 1; 
